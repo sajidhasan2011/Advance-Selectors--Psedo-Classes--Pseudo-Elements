@@ -18,3 +18,24 @@ a:hover {
 a::after {
   content: "😂";
 }
+ul > li {
+  font-weight: bold;
+  text-shadow: 3px 3px 2px #58a6ff;
+}
+ul li:hover {
+  color: #4f8cc9;
+  text-shadow: 3px 3px 2px #8b949e;
+}
+
+ul li:nth-child(3) {
+  background-color: #21262d;
+}
+
+ul li::before {
+  content: "🚀 ";
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #ff7b72;
+}

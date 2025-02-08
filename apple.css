@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+li {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #bdbdbd;
+}
+li:hover {
+  color: #949090;
+  text-shadow: 3px 3px 9px #ffffff;
+}
+h2:hover {
+  font-size: 40px;
+  color: #c7ad29;
+  text-shadow: 3px 3px 9px #ffffff;
+}
+dt:hover {
+  text-decoration: underline;
+  color: #949090;
+}
+h1::first-letter {
+  color: #b8b8b8de;
+}
